@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Check readme for full description"""
 
 def rain(walls):
+    """Rain function"""
     water_retained = 0
     
     if not isinstance(walls, list) or len(walls) < 3:
